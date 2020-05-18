@@ -30,8 +30,8 @@ def ohevalue(df):
 
 def make_prediction(unit):
 	
-	sc = joblib.load('C:/Users/Ritik/Desktop/Machine Learning Practice/Heart Disease Classification/scalers.pkl')
-	classifier = joblib.load('C:/Users/Ritik/Desktop/Machine Learning Practice/Heart Disease Classification/classifier.pkl')
+	sc = joblib.load('C:/Users/Ritik/Desktop/healthapp/heartdisease/scalers.pkl')
+	classifier = joblib.load('C:/Users/Ritik/Desktop/healthapp/heartdisease/classifier.pkl')
 
 	# print(type(unit))
 	columns_to_scale = ['age', 'trestbps', 'chol', 'thalach', 'oldpeak']
